@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.myapplicationpushnoti"
-    compileSdk = 31
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.myapplicationpushnoti"
@@ -43,4 +43,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
